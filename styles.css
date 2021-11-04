@@ -1,7 +1,20 @@
-.nav
+.flex-container
 {
-  border:black;
-  border-style: solid;
-  height:50px;
-  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(teal, black, teal);
+  position: sticky;
+  min-height: 50px;
+}
+.flex-item
+{
+min-height: 100%;
+}
+a
+{
+  color: teal;
+  font-family: monospace;
+  font-size: 14px;
+  text-decoration: none;
 }
