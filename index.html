@@ -6,31 +6,57 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="wrapper">
   <!--nested divs using flexbox for nav bar-->
-<div class="flex-container">
-  <div class="flex-item flex-item-1">
-  <a href="#">Home</a>
+  <div class="flex-container">
+    <div class="flex-item flex-item-1">
+    <a href="#">Home</a>
+    </div>
+    <div class="flex-item flex-item-2">
+      <a href="#about">About Me</a>
+    </div>
+    <div class="flex-item flex-item-3">
+      <a href="#projects">Projects</a>
+    </div>
+    <div class="flex-item flex-item-4">
+      <a href="#contact">Contact me</a>
+    </div>
   </div>
-  <div class="flex-item flex-item-2">
-    <a href="#about">About Me</a>
-  </div>
-  <div class="flex-item flex-item-3">
-    <a href="#projects">Projects</a>
-  </div>
-  <div class="flex-item flex-item-4">
-    <a href="#contact">Contact me</a>
-  </div>
-</div>
-<div class="grid-container">
-  <div class="grid-item grid-item-1">
+  <div class="grid-container" id="about">
+    <div class="grid-item grid-item-1">
     <!-- Write an introductory section here for about me-->
-  </div>
-  <div class="grid-item grid-item-2">
-    <!-- Insert an image here-->
-    <img src="web-profile.jpeg" class="circle" width=80%>
-  </div>
-  <div class="grid-item grid-item-3">
-    <!--Skills section here-->
+      <h1><em>Hi!</em></h1>
+    </div>
+    <div class="grid-item grid-item-2">
+      <!--Leave blank-->
+    </div>
+    <div class="grid-item grid-item-3">
+      <!--Skills section here-->
+      <h1>Skills</h1>
+    </div>
+    <div class="grid-item grid-item 4">
+      <!--Put paragraph text here for about me-->
+      <q style="text-align:center; padding:10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, illum.</q>
+    </div>
+    <div class="grid-item grid-item 5">
+      <!--Put image here-->
+      <img src="web-profile.jpeg" class="circle" width=220 height=250>
+    </div>
+    <div class="grid-item grid-item 6">
+      <!--Put logos here for skills-->
+    <div class="logo">
+      <!--HTML logo-->
+    </div>
+    <div class="logo">
+      <!--CSS logo-->
+    </div>
+    <div class="logo">
+      <!--JavaScript logo-->
+    </div>
+    <div class="logo">
+      <!--Python logo-->
+    </div>
+    </div>
   </div>
 </div>
 </body>

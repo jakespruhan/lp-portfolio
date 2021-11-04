@@ -1,3 +1,7 @@
+.wrapper
+{
+background-color: rgb(0,0,0);
+}
 .flex-container
 {
   display: flex;
@@ -22,27 +26,52 @@ a
 {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
-margin-top: 1px;
+grid-template-rows: repeat(20px, auto);
+grid-gap: 3px;
 }
 .grid-item
 {
 display: flex;
-min-height: 100px;
 justify-content: center;
+align-items: center;
+color: white;
+border: 1px solid white;
 }
 .grid-item-1
 {
-border: 1px solid black;
+max-height: 30px;
 }
 .grid-item-2
 {
-
+max-height: 30px;
 }
 .grid-item-3
 {
-border: 1px solid black;
+max-height: 30px;
+}
+.grid-item-4
+{
+
+}
+.grid-item-5
+{
+
+}
+.grid-item-6
+{
+
 }
 .circle
 {
   border-radius: 50%;
+}
+.logo
+{
+
+}
+q
+{
+font-size: 20px;
+font-style: italic;
+color: rgb(240,240,240);
 }
