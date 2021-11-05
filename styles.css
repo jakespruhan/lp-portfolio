@@ -35,7 +35,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 color: white;
-border: 1px solid white;
 }
 .grid-item-1
 {
@@ -59,7 +58,9 @@ max-height: 30px;
 }
 .grid-item-6
 {
-
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
 }
 .circle
 {
@@ -67,11 +68,11 @@ max-height: 30px;
 }
 .logo
 {
-
+padding: 5px;
 }
 q
 {
 font-size: 20px;
 font-style: italic;
-color: rgb(240,240,240);
+color: rgb(200,200,200);
 }
