@@ -82,3 +82,12 @@ textarea {
   width: 100%;
   min-height: 100px;
 }
+footer {
+  display: table;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+}
+body {
+  font-family: monospace;
+}
