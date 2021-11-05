@@ -7,7 +7,8 @@ background-color: rgb(0,0,0);
   align-items: center;
   background-image: linear-gradient(teal, black, teal);
   width: 100%;
-  margin-top:0px;
+  position: fixed;
+  top: 0;
   min-height: 50px;
 }
 .flex-item {
