@@ -1,5 +1,5 @@
 .wrapper {
-background-color: rgb(0,0,0);
+  background-color: rgb(0,0,0);
 }
 .flex-container {
   display: flex;
@@ -12,7 +12,7 @@ background-color: rgb(0,0,0);
   min-height: 50px;
 }
 .flex-item {
-min-height: 100%;
+  min-height: 100%;
 }
 a {
   color: teal;
@@ -27,49 +27,43 @@ a:hover {
   transform:scale(1.8);
 }
 .grid-container {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(20px, auto);
-grid-gap: 10px;
-align-items: center;
-justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(20px, auto);
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .grid-item {
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 .grid-item-1 {
-max-height: 30px;
+  max-height: 30px;
 }
 .grid-item-2 {
-max-height: 30px;
+  max-height: 30px;
 }
 .grid-item-3 {
-max-height: 30px;
-}
-.grid-item-4 {
-
-}
-.grid-item-5 {
-
+  max-height: 30px;
 }
 .grid-item-6 {
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
 }
 .circle {
   border-radius: 50%;
 }
 .logo {
-padding-top: 30px;
+  padding-top: 30px;
 }
 q {
-font-size: 20px;
-color: rgb(175,175,175);
-font-family:monospace;
+  font-size: 20px;
+  color: rgb(175,175,175);
+  font-family:monospace;
 }
 .emptyspace {
   height:100px;
@@ -80,7 +74,7 @@ label {
   font-family:monospace;
 }
 fieldset {
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
 }
 textarea {
@@ -88,10 +82,9 @@ textarea {
   min-height: 100px;
 }
 footer {
-  display: table;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
 }
 body {
   font-family: monospace;
