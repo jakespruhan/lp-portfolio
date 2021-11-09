@@ -33,12 +33,14 @@ a:hover {
   grid-gap: 10px;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 .grid-item {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+  padding-top: 15px;
 }
 .grid-item-1 {
   max-height: 30px;
@@ -64,6 +66,8 @@ q {
   font-size: 20px;
   color: rgb(175,175,175);
   font-family:monospace;
+  text-align: center;
+  padding: 10px;
 }
 .emptyspace {
   height:100px;
@@ -88,4 +92,8 @@ footer {
 }
 body {
   font-family: monospace;
+  margin:0;
+}
+.navbar {
+    z-index: 1;
 }

@@ -1,88 +1,89 @@
 <!DOCTYPE html>
 <html lang=en>
 <head>
-<meta charset="utf-8">
-<title>Jake Spruhan Portfolio</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jake Spruhan Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body style="margin:0"> <!-- found the fix to the white margin on Stack Overflow-->
-<div class="wrapper">
-  <!--nested divs using flexbox for nav bar-->
-  <div class="flex-container">
-    <div class="flex-item flex-item-1">
-    <a href="#">Home</a>
+<body> <!-- found the fix to the white margin on Stack Overflow-->
+  <main class="wrapper">
+    <!--nested divs using flexbox for nav bar-->
+    <nav class="flex-container navbar">
+      <div class="flex-item flex-item-1">
+        <a href="#">Home</a>
+      </div>
+      <div class="flex-item flex-item-2">
+        <a href="#about">About Me</a>
+      </div>
+      <div class="flex-item flex-item-3">
+        <a href="#projects">Projects</a>
+      </div>
+      <div class="flex-item flex-item-4">
+        <a href="#contact">Contact me</a>
+      </div>
+    </nav>
+    <section class="grid-container" id="about">
+      <div class="grid-item grid-item-1">
+      <!-- About Me section heading-->
+        <h1>About Me</h1>
+      </div>
+      <div class="grid-item grid-item-2">
+        <!--Leave blank-->
+      </div>
+      <div class="grid-item grid-item-3">
+        <!--Skills section here-->
+        <h1>Skills</h1>
+      </div>
+      <div class="grid-item grid-item 4">
+        <!--Put paragraph text here for about me-->
+        <q>Hi there, my name is Jake
+        Spruhan. I am a front-end developer with skills in a few different
+        languages. I have worked for almost a decade as a school teacher, but now
+        I am branching out to do my own thing. Have a look at my work and let me
+        know what you think!</q>
+      </div>
+      <div class="grid-item grid-item 5">
+        <!--Put image here-->
+        <a href="https://github.com/jakespruhan">
+          <!--Learned mouseover text from
+          http://sites.cognitivescience.co/knowledgebase/resources/using-google-sites/creating-mouseover-text-with-html-->
+        <img src="web-profile.jpeg" class="circle" height=300 alt="Profile picture"
+        title="Check out my GitHub page!" style="filter:brightness(140%);">
+        </a>
+      </div>
+    <div class="grid-container">
+        <!--Put logos here for skills-->
+      <div class="logo">
+        <!--HTML logo-->
+        <img src="html5_logo.png" title="Intermediate skills in HTML5" alt="HTML5 logo" height=75>
+      </div>
+      <div class="logo">
+        <!--CSS logo-->
+        <img src="css3_logo.png" title="Intermediate skills in CSS3" alt="CSS3 logo" height=75>
+      </div>
+      <div class="logo">
+        <!--JavaScript logo-->
+        <img src="javascript_logo.png" title="Beginner skills in JavaScript" alt="JavaScript logo" height=75>
+      </div>
+      <div class="logo">
+        <!--Python logo-->
+        <img src="python_logo.png" title="Beginner skills in Python" alt="Python logo" height=75>
+      </div>
+      <div class="logo">
+        <!--Python logo-->
+        <img src="git_logo.png" title="Beginner skills with Git" alt="Git logo" height=75>
+      </div>
+      <div class="logo">
+        <!--Python logo-->
+        <img src="c_logo.png" title="Beginner skills in C++" alt="C++ logo" height=75>
+      </div>
     </div>
-    <div class="flex-item flex-item-2">
-      <a href="#about">About Me</a>
+  </section>
+    <div class="emptyspace">
+      <!--Intentionally left as blank space-->
     </div>
-    <div class="flex-item flex-item-3">
-      <a href="#projects">Projects</a>
-    </div>
-    <div class="flex-item flex-item-4">
-      <a href="#contact">Contact me</a>
-    </div>
-  </div>
-  <div class="grid-container" id="about" style="padding-top:50px">
-    <div class="grid-item grid-item-1" style="padding-top: 15px;">
-    <!-- About Me section heading-->
-      <h1>About Me</h1>
-    </div>
-    <div class="grid-item grid-item-2">
-      <!--Leave blank-->
-    </div>
-    <div class="grid-item grid-item-3" style="padding-top: 15px;">
-      <!--Skills section here-->
-      <h1>Skills</h1>
-    </div>
-    <div class="grid-item grid-item 4">
-      <!--Put paragraph text here for about me-->
-      <q style="text-align:center; padding:10px;">Hi there, my name is Jake
-      Spruhan. I am a front-end developer with skills in a few different
-      languages. I have worked for almost a decade as a school teacher, but now
-      I am branching out to do my own thing. Have a look at my work and let me
-      know what you think!</q>
-    </div>
-    <div class="grid-item grid-item 5">
-      <!--Put image here-->
-      <a href="https://github.com/jakespruhan">
-        <!--Learned mouseover text from
-        http://sites.cognitivescience.co/knowledgebase/resources/using-google-sites/creating-mouseover-text-with-html-->
-      <img src="web-profile.jpeg" class="circle" height=300 alt="Profile picture"
-      title="Check out my GitHub page!" style="filter:brightness(140%);">
-      </a>
-    </div>
-  <div class="grid-container">
-      <!--Put logos here for skills-->
-    <div class="logo">
-      <!--HTML logo-->
-      <img src="html5_logo.png" title="Intermediate skills in HTML5" alt="HTML5 logo" height=75>
-    </div>
-    <div class="logo">
-      <!--CSS logo-->
-      <img src="css3_logo.png" title="Intermediate skills in CSS3" alt="CSS3 logo" height=75>
-    </div>
-    <div class="logo">
-      <!--JavaScript logo-->
-      <img src="javascript_logo.png" title="Beginner skills in JavaScript" alt="JavaScript logo" height=75>
-    </div>
-    <div class="logo">
-      <!--Python logo-->
-      <img src="python_logo.png" title="Beginner skills in Python" alt="Python logo" height=75>
-    </div>
-    <div class="logo">
-      <!--Python logo-->
-      <img src="git_logo.png" title="Beginner skills with Git" alt="Git logo" height=75>
-    </div>
-    <div class="logo">
-      <!--Python logo-->
-      <img src="c_logo.png" title="Beginner skills in C++" alt="C++ logo" height=75>
-    </div>
-  </div>
-  </div>
-  <div class="emptyspace">
-    <!--Intentionally left as blank space-->
-  </div>
-  <div id="projects" class="grid-container">
+  <section id="projects" class="grid-container">
     <div class="grid-item">
       <!--Leave blank-->
     </div>
@@ -113,48 +114,52 @@
     <div class="grid-item">
       <img src="kelpie.jpeg" height=200 style="padding:20px;" alt="Project 3">
     </div>
-  </div>
+  </section>
   <div class="emptyspace">
     <!--Intentionally left as blank space-->
   </div>
-  <!--Form created using fieldset, learned by teaching my class how to make a form-->
-  <fieldset id="contact">
-    <legend style="color:teal; font-family: monospace; font-size:16px;
-    text-align: center;">Contact me below!</legend>
-    <label for="fullName">Your full name:</label>
-    <input type="text" name="fullName" id="fullName"><br><br>
-    <label for="email">Email address:</label>
-    <input type="email" name="email" id="email"><br><br>
-    <label for="phone">Phone no. </label>
-    <input type="tel" name="phone" id="phone"><br><br>
-    <label for="msg">Write your message here:</label>
-    <textarea name="msg" id="msg"></textarea>
-    <br><br>
-    <h4 style="color:white; font-family:monospace;">Best contact method:</h4>
-    <input type="radio" name="contact" id="contactEmail">
-    <label for="contactEmail">Email</label>
-    <input type="radio" name="contact" id="contactPhone">
-    <label for="contactPhone">Phone</label><br><br>
-    <input type="submit" value="Send my information!" style="font-family:monospace;
-    border-radius:10px; height:40px; background-image:linear-gradient(teal,black,teal); color:white;">
-  </fieldset>
-<div class="emptyspace"></div>
-<footer>
-  <p style="color:white;font-family:monospace;display:inline;">Check out my socials:</p>
-  <a href="https://www.linkedin.com/in/jake-spruhan-0014541a9/">
-    <img src="linkedin_logo.gif" class="link" height=40 alt="linkedin" title="LinkedIn profile">
-  </a>
-  <a href="https://www.facebook.com">
-    <img src="facebook_logo.gif" class="link" height=40 alt="facebook" title="Facebook profile">
-  </a>
-  <a href="https://www.instagram.com">
-    <img src="instagram_logo.gif" class="link" height=40 alt="instagram" title="Instagram profile">
-  </a>
-  <a href="https://github.com/jakespruhan">
-    <img src="github_logo.gif" class="link" height=40 alt="github" title="Github profile">
-  </a>
-</footer>
-</div>
+    <!--Form created using fieldset, learned by teaching my class how to make a form-->
+  <form>
+    <fieldset id="contact">
+      <legend style="color:teal; font-family: monospace; font-size:16px;
+      text-align: center;">Contact me below!</legend>
+      <label for="fullName">Your full name:</label>
+      <input type="text" name="fullName" id="fullName"><br><br>
+      <label for="email">Email address:</label>
+      <input type="email" name="email" id="email"><br><br>
+      <label for="phone">Phone no. </label>
+      <input type="tel" name="phone" id="phone"><br><br>
+      <label for="msg">Write your message here:</label>
+      <textarea name="msg" id="msg"></textarea>
+      <br><br>
+      <h4 style="color:white; font-family:monospace;">Best contact method:</h4>
+      <input type="radio" name="contact" id="contactEmail">
+      <label for="contactEmail">Email</label>
+      <input type="radio" name="contact" id="contactPhone">
+      <label for="contactPhone">Phone</label><br><br>
+      <input type="submit" value="Send my information!" style="font-family:monospace;
+      border-radius:10px; height:40px; background-image:linear-gradient(teal,black,teal); color:white;">
+    </fieldset>
+  </form>
+  <div class="emptyspace">
+
+  </div>
+  <footer>
+    <p style="color:white;font-family:monospace;display:inline;">Check out my socials:</p>
+    <a href="https://www.linkedin.com/in/jake-spruhan-0014541a9/">
+      <img src="linkedin_logo.gif" class="link" height=40 alt="linkedin" title="LinkedIn profile">
+    </a>
+    <a href="https://www.facebook.com">
+      <img src="facebook_logo.gif" class="link" height=40 alt="facebook" title="Facebook profile">
+    </a>
+    <a href="https://www.instagram.com">
+      <img src="instagram_logo.gif" class="link" height=40 alt="instagram" title="Instagram profile">
+    </a>
+    <a href="https://github.com/jakespruhan">
+      <img src="github_logo.gif" class="link" height=40 alt="github" title="Github profile">
+    </a>
+  </footer>
+  </main>
 </body>
 
 </html>
