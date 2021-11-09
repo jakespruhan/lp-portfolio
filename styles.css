@@ -73,6 +73,12 @@ q {
   height:100px;
   width: 100%;
 }
+legend {
+  color: teal;
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+}
 label {
   color:white;
   font-family:monospace;
@@ -96,4 +102,23 @@ body {
 }
 .navbar {
     z-index: 1;
+}
+#bright {
+  filter: brightness(140%);
+}
+h4 {
+  color: white;
+  font-family: monospace;
+}
+input[type=submit] {
+  font-family: monospace;
+  border-radius: 10px;
+  height: 40px;
+  background-image: linear-gradient(teal,black,teal);
+  color: white;
+}
+p {
+  display: inline;
+  color: white;
+  font-family: monospace;
 }
