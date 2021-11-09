@@ -16,7 +16,6 @@
 }
 a {
   color: teal;
-  font-family: monospace;
   font-size: 14px;
   text-decoration: none;
 }
@@ -65,7 +64,6 @@ a:hover {
 q {
   font-size: 20px;
   color: rgb(175,175,175);
-  font-family:monospace;
   text-align: center;
   padding: 10px;
 }
@@ -75,13 +73,11 @@ q {
 }
 legend {
   color: teal;
-  font-family: monospace;
   font-size: 16px;
   text-align: center;
 }
 label {
   color:white;
-  font-family:monospace;
 }
 fieldset {
   width: 40%;
@@ -108,10 +104,8 @@ body {
 }
 h4 {
   color: white;
-  font-family: monospace;
 }
 input[type=submit] {
-  font-family: monospace;
   border-radius: 10px;
   height: 40px;
   background-image: linear-gradient(teal,black,teal);
@@ -120,5 +114,4 @@ input[type=submit] {
 p {
   display: inline;
   color: white;
-  font-family: monospace;
 }
